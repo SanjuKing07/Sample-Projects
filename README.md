@@ -4,5 +4,5 @@ This is a collection of sample projects using the different tech stacks to be us
 
 ## Django-React Project
 
-**Owner** : Sanju
+**Owner** : Sanju <br>
 **Description** : To test the integration of django and react to form a web app.
