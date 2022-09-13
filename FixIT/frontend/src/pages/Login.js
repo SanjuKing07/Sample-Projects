@@ -20,12 +20,13 @@ const Login = () => {
                 </h3>
                 {/* Error! */}
                 <div>
-                    <label className={LoginCSS.labe} htmlFor='name'>Email </label>
-                    <input className={LoginCSS.inp} type = "email" name='email' id='email' placeholder='name@example.com' />
+                    <label className={LoginCSS.labe} htmlFor='name'>Username</label>
+                    <input className={LoginCSS.inp} type = "email" name='email' id='email' placeholder='E-Mail/Number' />
                 </div>
                 <div>
                     <label className={LoginCSS.labe} htmlFor='password'>Password </label>
-                    <input className={LoginCSS.inp} type = "text" name='password' id='password' placeholder='min. 8 characters'/>
+                    <input className={LoginCSS.inp} type = "text" name='password' id='password' placeholder='*****************'/>
+                
                 </div>
                 <div>
                     <label className={LoginCSS.boxText} htmlFor='keepLogin'>Keep me logged in </label>
@@ -33,6 +34,7 @@ const Login = () => {
                 </div>
                 <input className={LoginCSS.submit} type= 'submit' value= 'LOGIN' />
             </div>
+            
         </form>
     </div>  
   )

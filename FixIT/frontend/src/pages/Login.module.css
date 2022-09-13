@@ -1,19 +1,19 @@
 
 .orange {
     color: #F15025;
-    font-family: sans-serif;
+    font-family: candara;
     font-size: 1.25em;
 }
 
 .blue {
     color:#2E347F;
-    font-family: sans-serif;
-    font-size: 1.25em;
+    font-family: candara;
+    font-size: 1em;
 }
 
 .login {
     color: #F15025;
-    font-family: sans-serif;
+    font-family: candara;
     font-size: 3.5em;
 }
 
@@ -27,31 +27,36 @@
 .inp {
 	position:relative;
 	font-size: 0.85em;
+    opacity: .5;
 	padding: 8px;
     width: 100%;
 	display: block;
     height: 26px;
     border:0;
     border-radius:10px;
-    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.3);
     margin-top: 5px;
     margin-bottom: 22px;
     padding-bottom: 5px;
     font-family: sans-serif;
 }
 
-.label {
-    font-size: 0.8em;
-    font-family: sans-serif;
+.labe {
+    font-size: 1em;
+    font-family: Candara;
     padding-top: 30px;
     padding-bottom: 4px;
     margin-top: 60px;
+    text-align: center;
 }
 
 .box {
 
     float: left;
     padding-left: 6px;
+    cursor: pointer;
+    accent-color: #2e347f;
+
 }
 
 .boxText {
@@ -61,6 +66,10 @@
     padding-left: 7px;
 }
 
+.eye{
+    margin-left: 250px;
+    cursor: pointer;
+}
 .submit {
     background-color: #F15025;
     color: white;
@@ -68,15 +77,19 @@
     font-weight: 400;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 105%;
     height: 45px;
-    margin-top: 40px;
+    margin-top: 30px;
     border:0;
     border-radius:10px;
+
+    
 }
+
 
 .submit:hover {
     box-shadow: 0 0 10px #2E347F;
     font-weight: bold;
     color: #2E347F;
 }
+
